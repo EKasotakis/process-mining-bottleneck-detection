@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: process_mining_postgres
+
+    environment:
+      POSTGRES_USER: process_user
+      POSTGRES_PASSWORD: process_password
+      POSTGRES_DB: process_mining_db
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - process_mining_data:/var/lib/postgresql/data
+
+volumes:
+  process_mining_data:
