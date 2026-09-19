@@ -56,6 +56,7 @@ To-Be Process Redesign
         |
         v
 Improvement Scenario
+```
 
 ## Dashboard Overview
 
