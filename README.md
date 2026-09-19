@@ -56,3 +56,15 @@ To-Be Process Redesign
         |
         v
 Improvement Scenario
+
+## Dashboard Overview
+
+![Dashboard Overview](docs/screenshots/dashboard_overview.png)
+
+### Bottleneck & Rework Analysis
+
+![Bottleneck Analysis](docs/screenshots/bottleneck_analysis.png)
+
+### Operational Case Monitoring
+
+![Case Alerts](docs/screenshots/case_alerts.png)
